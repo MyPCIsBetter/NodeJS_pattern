@@ -1,0 +1,25 @@
+{
+  "name": "NodeJSProjectStarter",
+  "version": "0.0.0",
+  "description": "I always start from this",
+  "main": "app.js",
+  "author": {
+    "name": "Piotrek"
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "ejs": "*",
+	"socket.io": "*",
+	"request": "2.33.0",
+	"cheerio": "*",
+	"mysql": "*"
+  },
+  "addons-descriptions": {
+	"express": "pomoc w zarzadzaniu strona",
+    "ejs": "javascript po strone serwera w pliku html",
+	"socket.io": "kumunikacja klient-server w czasie rzeczywistym",
+	"request": "do pobierania np. kodu ze strony",
+	"cheerio": "uzywanie jquery na pobranym kodzie",
+	"mysql": "dostep do bazy danych"
+  }
+}
